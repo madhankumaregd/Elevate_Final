@@ -1,0 +1,71 @@
+
+================================================================================
+                    MOVIE SUCCESS PREDICTION MODEL SUMMARY
+================================================================================
+
+📊 1. DATA OVERVIEW
+----------------------------------------
+   • Total movies analyzed: 1,000
+   • Time period: 1920 - 2022
+   • Features used in model: 9
+   • Target variable: Gross Box Office Revenue (in $ millions)
+
+📈 2. SENTIMENT ANALYSIS (VADER)
+----------------------------------------
+   • Positive reviews: 763 (76.3%)
+   • Neutral reviews:  58 (5.8%)
+   • Negative reviews: 179 (17.9%)
+   • Correlation between IMDb Rating and Sentiment Score: 0.005
+
+🤖 3. MODEL PERFORMANCE
+----------------------------------------
+   🏆 Best Model: Random Forest
+
+   Performance Metrics:
+   • R² Score:  0.3003 (higher is better, max=1.0)
+   • RMSE:      $93.05M (Root Mean Square Error)
+   • MAE:       $54.23M (Mean Absolute Error)
+
+   📊 Model Comparison:
+   • Linear Regression    R²: 0.0805 | RMSE: $106.67M | MAE: $65.44M
+   • Ridge                R²: 0.0806 | RMSE: $106.66M | MAE: $65.44M
+   • Lasso                R²: 0.0806 | RMSE: $106.67M | MAE: $65.44M
+   • Random Forest        R²: 0.3003 | RMSE: $93.05M | MAE: $54.23M
+
+🔍 4. TOP 5 MOST IMPORTANT FEATURES
+----------------------------------------
+   1. Genre_Encoded             Importance: 0.1856 (18.6%)
+   2. Release_Year              Importance: 0.1644 (16.4%)
+   3. Runtime_in_min            Importance: 0.1640 (16.4%)
+   4. Certificate_Encoded       Importance: 0.1482 (14.8%)
+   5. Metascore                 Importance: 0.1302 (13.0%)
+
+🎭 5. GENRE-WISE SENTIMENT INSIGHTS
+----------------------------------------
+   🏆 Genre with HIGHEST Sentiment:
+      • Family: 0.813 
+      • Number of movies: 1.0
+      • This indicates that Family movies generally receive more positive reviews
+
+   📉 Genre with LOWEST Sentiment:
+      • Thriller: -0.099
+      • Number of movies: 1.0
+      • This suggests that Thriller movies tend to have more critical reviews
+
+💡 6. KEY INSIGHTS
+----------------------------------------
+   • Metascore is the strongest predictor of box office success
+   • Sentiment analysis shows 76.3% of reviews are positive
+   • Family movies have the most positive audience sentiment
+   • There's a 0.01 correlation between IMDb rating and sentiment score
+
+📌 7. RECOMMENDATIONS
+----------------------------------------
+   • Focus on Family genre for higher audience satisfaction
+   • Consider Thriller genre improvements based on sentiment feedback
+   • Use the prediction model to estimate box office potential before release
+   • Monitor sentiment trends to gauge audience reception
+
+================================================================================
+             Report Generated on March 19, 2026 at 11:39 PM
+================================================================================

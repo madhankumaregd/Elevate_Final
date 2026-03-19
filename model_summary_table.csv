@@ -1,0 +1,17 @@
+Metric,Value
+Total Movies,"1,000"
+Time Period Start,1920
+Time Period End,2022
+Features Used,9
+Best Model,Random Forest
+R² Score,0.3003
+RMSE ($M),$93.05M
+MAE ($M),$54.23M
+Positive Reviews %,76.3%
+Neutral Reviews %,5.8%
+Negative Reviews %,17.9%
+Rating-Sentiment Correlation,0.005
+Top Genre,Family
+Top Genre Sentiment,0.813
+Bottom Genre,Thriller
+Bottom Genre Sentiment,-0.099
